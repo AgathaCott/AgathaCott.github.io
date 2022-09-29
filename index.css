@@ -89,8 +89,9 @@ li > a:hover {
 
 
 table {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: center;
+/*   margin-left: 100px; */
+/*   margin-right: 100px; */
   margin-top: 20px;
 } 
 
