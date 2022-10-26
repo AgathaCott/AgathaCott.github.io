@@ -1,19 +1,19 @@
 body {
-  background: #4520ab;
-  background: -moz-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: -webkit-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: radial-gradient(ellipse at center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
+  background: #224d1a;
+  background: -moz-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: -webkit-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: radial-gradient(ellipse at center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 
 .menu > a:hover {
-  color: #29EDFF;
+  color: #ebce71;
 }
 
 h1, h2 {
-  color: #29EDFF;
+  color: #ebce71;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-size: 35pt;
@@ -26,10 +26,10 @@ h3 {
 }
 
 .header {
-  background: #4520ab;
-  background: -moz-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: -webkit-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: radial-gradient(ellipse at center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
+  background: #224d1a;
+  background: -moz-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: -webkit-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: radial-gradient(ellipse at center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 45pt;
   color: #29EDFF;
@@ -37,6 +37,13 @@ h3 {
   padding-left: 14px;
   margin-bottom: 1px;
   display: flex;
+  animation-name: shining;
+  animation-duration: 12s;
+}
+
+@keyframes shining {
+  from {background: #224d1a;}
+  to {background-color: #c2de52;}
 }
 
 .info_main {
@@ -51,22 +58,24 @@ h3 {
 
 
 .violet {
-  background: #4520ab;
-  background: -moz-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: -webkit-radial-gradient(center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
-  background: radial-gradient(ellipse at center, #4520ab 0%, #4520ab 24%, #1B2838 100%);
+  background: #224d1a;
+  background: -moz-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: -webkit-radial-gradient(center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
+  background: radial-gradient(ellipse at center, #224d1a 0%, #224d1a 24%, #3e872f 100%);
   margin-left: 100px;
   margin-right: 100px;
   padding: 10px;
+  animation-name: shining;
+  animation-duration: 12s;
 }
 
 li > a {
-  color: #29EDFF;
+  color: #ebce71;
   font-size: 22pt;
 }
 
 li > a:hover {
-  color: #FFBC5B;
+  color: #859410;
 }
 
 .info {
@@ -92,7 +101,7 @@ table {
   width: 960px;
   margin: auto;
   margin-top: 20px;
-} 
+}
 
 .footer {
   font-family: Arial, Helvetica, sans-serif;
